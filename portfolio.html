@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/img/logo-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="success d-none">
+        <span>Your application has been sent</span>
+    </div>
+    <div class="error d-none">
+        <span>Your letter contains invalid characters</span>
+    </div>
+    <button class="toTop"><span>UP</span></button>
+    <div class="filter-header">
+        <header class="header">
+            <nav class="nav">
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="index.html">Главная</a></li>
+                        <li><a class="menu__item" href="repair-of-premises.html">SРемонт помещений</a></li>
+                        <li><a class="menu__item" href="stretch-ceiling.html">Шумо- и термо- изоляция</a></li>
+                        <li><a class="menu__item" href="handyman-service.html">Потолки/Полы</a></li>
+                        <li><a class="menu__item" href="portfolio.html">обслуживание офисов</a></li>
+                        <li><a class="menu__item" href="portfolio.html">Портфолио</a></li>
+                    </ul>
+                </div>
+                <a href="index.html" class="nav__logo">
+                    <img class="logo__img" src="img/logo-2.png" alt="logo">
+                </a>
+                <ul class="nav-wrap">
+                    <div class="test"></div>
+                    <li class="nav-wrap-item">
+                        <a href="index.html" class="nav-wrap-item__link ">Главная</a>
+                    </li>
+                    <li class="nav-wrap-item">
+                        <a href="repair-of-premises.html" class="nav-wrap-item__link">Ремонт помещений</a>
+                    </li>
+                    <li class="nav-wrap-item">
+                        <a href="soundproofing-of-premises.html" class="nav-wrap-item__link">Шумо- и термо- изоляция</a>
+                    </li>
+                    <li class="nav-wrap-item">
+                        <a href="stretch-ceiling.html" class="nav-wrap-item__link">Потолки/Полы</a>
+                    </li>
+                    <li class="nav-wrap-item">
+                        <a href="handyman-service.html" class="nav-wrap-item__link">обслуживание офисов</a>
+                    </li>
+                    <li class="nav-wrap-item">
+                        <a href="portfolio.html" class="nav-wrap-item__link nav-wrap-item__link_active">Портфолио</a>
+                    </li>
+                </ul>
+                <a href="telto:+375257790986" class="nav-tel">
+                    <img src="img/phone-icon.png" alt="">
+                    <span class="nav-tel__text">(25) 779 09 86</span>
+                </a>
+            </nav>
+            <div class="header-caption">
+                <div class="header-caption-main">
+                    <h1 class="header-caption-main__header">Наше портфолио</h1>
+                    <button class="header-caption-main__btn">качественно и на века</button>
+                    <!-- <div class="header-caption-main-link">
+                        <span class="header-caption-main-link__text">Follow us:</span>
+                        <div class="header-caption-main-link-block">
+                            <a class="header-caption-main-link-block__link"
+                                href="https://www.facebook.com/GoodHome-112659453482194/?modal=admin_todo_tour"
+                                target="_blank">
+                                <img src="img/fb-icon.png" alt="">
+                            </a>
+                            <a class="header-caption-main-link-block__link"
+                                href="https://www.instagram.com/goodhome_repairs" target="_blank">
+                                <img src="img/insta-icon.png" alt="">
+                            </a>
+                            <a class="header-caption-main-link-block__link"
+                                href="https://www.linkedin.com/company/goodhome-repairs" target="_blank">
+                                <img src="img/linked-i.png" alt="">
+                            </a>
+                            <a class="header-caption-main-link-block__link" href="https://www.amazon.com/localservices/ya/sellerprofile?sellerID=A13LSB3GVJDSY8" target="_blank">
+                                <img src="img/amazon-i.png" alt="">
+                            </a>
+                            <a class="header-caption-main-link-block__link" href="https://www.thumbtack.com"
+                                target="_blank">
+                                <img src="img/t-i.png" alt="">
+                            </a>
+                            <a class="header-caption-main-link-block__link" href="https://www.taskrabbit.com/profile/aliaksandr-k/reviews"
+                                target="_blank">
+                                <img src="img/rabbit-i.png" alt="">
+                            </a>
+                            <a class="header-caption-main-link-block__link" href="https://www.yelp.com" target="_blank">
+                                <img src="img/thumb-i.png" alt="">
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="header-caption-last">
+                    <span class="header-caption-last__text">12+ лет опыта</span>
+                    <span class="header-caption-last__text">Мы выполняем все задачи</span>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <section class="portfolio">
+        <h2 class="portfolio__header">Our portfolio</h2>
+        <span class="portfolio__text">Here are some examples of our work.</span>
+        <div class="portfolio-block">
+            <h2 class="portfolio-block__header">
+                Handyman
+            </h2>
+            <hr class="portfolio-block__line">
+            <div class="portfolio-block-img popup-gallery">
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/1.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/1.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/2.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/2.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/3.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/3.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/4.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/4.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/5.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/5.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/6.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/6.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/7.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/7.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/8.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/8.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/9.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/9.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/10.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/10.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/11.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/11.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/12.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/12.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/13.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/13.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/14.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/14.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/15.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/15.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/16.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/16.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/17.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/17.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/18.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/18.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/19.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/19.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/20.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/20.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/21.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/21.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/22.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/22.1.jpg" alt="">
+                </a>
+                <a class="portfolio-block-img__item image-popup-zoom" href="img/portfolio-photo/23.jpg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/portfolio-photo/23.1.jpg" alt="">
+                </a>
+            </div>
+            <button class="gallery-more">View all</button>
+        </div>
+        <!-- <div class="portfolio-block">
+            <h2 class="portfolio-block__header">
+                Construction
+            </h2>
+            <hr class="portfolio-block__line">
+            <div class="portfolio-block-img popup-gallery2">
+                <a class="portfolio-block-img__item_2 image-popup-zoom" href="img/construction-photo/4.jpeg">
+                    <img style="width:100%; object-fit:cover; cursor:pointer;" src="img/construction-photo/4.png"
+                        alt="">
+                </a>
+                
+            </div>
+            <button class="gallery-more2">View all</button>
+        </div> -->
+    </section>
+    <section class="contact">
+        <h2 class="contact__header">Индивидуальное предложение</h2>
+        <div class="contact-block">
+            <div class="contact-block-offer">
+                <form id="form" action="mail.php" method="post"
+                    class="contact-block-offer-form contact-block-offer-form_soundproofing">
+                    <span class="contact-block-offer-form__header">Отправьте свои контактные данные и мы вам перезвоним</span>
+                    <input type="text" class="contact-block-offer-form__input contact-block-offer-form__input_name"
+                        placeholder="Имя" name="name">
+                    <input type="text" pattern="[0-9,+,(,),]{10,15}"
+                        class="contact-block-offer-form__input contact-block-offer-form__input_tel" placeholder="Телефон"
+                        name="phone">
+                    <input type="text" class="contact-block-offer-form__input" placeholder="Коментарий" name="comment">
+                    <input type="submit" disabled
+                        class="contact-block-offer-form__input contact-block-offer-form__input_submit" value="Send"
+                        name="celling">
+                </form>
+                <div class="contact-block-offer__bg-dicorated"></div>
+            </div>
+            <div class="contact-block-present">
+                <div class="contact-block-present__bg-dicorated"></div>
+                <img class="contact-block-present__img" src="img/section-offer-img.png" alt="">
+                <div class="contact-block-present-gift">
+                    <img class="contact-block-present-gift__img" src="img/section-offer-gift.png" alt="">
+                    <span class="contact-block-present-gift__text">Получите от нас приятный бонус в 10% скидки</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="comment">
+        <div class="comment-block">
+            <h2 class="comment__header">Here is what our customers are saying</h2>
+            <div class="comment-slider">
+                <div class="comment-slider-item">
+                    <fieldset class="comment-slider-item-block">
+                        <legend class="comment-slider-item-block__legend">Douglas Fairy</legend>
+                        <div class="comment-slider-item-block-star">
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                        </div>
+                        <span class="comment-slider-item-block__text">
+                            We really appreciated Alex's outstanding, professional and fast handy work. Goodhome is
+                            Super Professional and they are about Super Customer Service! They are about service first
+                            over making a quick buck. They try to save you money whenever possible. I'll be telling my
+                            family and friends about this great company.
+                        </span>
+                        <img src="img/douglas-fairy.jpg" alt="" class="comment-slider-item__img-1">
+                    </fieldset>
+                </div>
+                <div class="comment-slider-item">
+                    <fieldset class="comment-slider-item-block">
+                        <legend class="comment-slider-item-block__legend">Allan Butler</legend>
+                        <div class="comment-slider-item-block-star">
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                        </div>
+                        <span class="comment-slider-item-block__text">
+                            Definitely recommend Alex and the whole GoodHome team. They have been a pleasure to work
+                            with. They are absolutely professional individuals who genuinely are there to help you and
+                            not trying to sound like they are just trying to sell you a solution to just take your
+                            money. More service people and restoration people need to be like this company!
+                        </span>
+                        <img src="img/allan-butler.jpg" alt="" class="comment-slider-item__img-1">
+                    </fieldset>
+                </div>
+                <div class="comment-slider-item">
+                    <fieldset class="comment-slider-item-block">
+                        <legend class="comment-slider-item-block__legend">Stefania Backer</legend>
+                        <div class="comment-slider-item-block-star">
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                        </div>
+                        <span class="comment-slider-item-block__text">
+                            I have to say, "Goodhome", gets over an A+ rating from me. I will be recommending this
+                            fantastic company and team to everyone. Thanks again!
+                        </span>
+                        <img src="img/stefania-backer.jpg" alt="" class="comment-slider-item__img-1">
+                    </fieldset>
+                </div>
+                <div class="comment-slider-item">
+                    <fieldset class="comment-slider-item-block">
+                        <legend class="comment-slider-item-block__legend">Wilma Leapman</legend>
+                        <div class="comment-slider-item-block-star">
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                        </div>
+                        <span class="comment-slider-item-block__text">
+                            I used this Company recently and was pleasantly surprised. I asked them to set up flat pack
+                            furniture for my daughter's bedroom, put up shelves and paint. They did a good job. Some
+                            parts were missing from the flat pack. When i got the parts they came back quickly and
+                            sorted it out. Will use again.
+                        </span>
+                        <img src="img/wilma-leapman.jpg" alt="" class="comment-slider-item__img-1">
+                    </fieldset>
+                </div>
+                <div class="comment-slider-item">
+                    <fieldset class="comment-slider-item-block">
+                        <legend class="comment-slider-item-block__legend">Thomas Little</legend>
+                        <div class="comment-slider-item-block-star">
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                        </div>
+                        <span class="comment-slider-item-block__text">
+                            Excellent repairing service .Engineers are too good and very helpful.
+                        </span>
+                        <img src="img/thomas-little.jpg" alt="" class="comment-slider-item__img-1">
+                    </fieldset>
+                </div>
+                <div class="comment-slider-item">
+                    <fieldset class="comment-slider-item-block">
+                        <legend class="comment-slider-item-block__legend">Victor Bishop</legend>
+                        <div class="comment-slider-item-block-star">
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                        </div>
+                        <span class="comment-slider-item-block__text">
+                            Excellent and professional service. Very friendly and helpful. Would definitely use again.
+                            <br>
+                            Highly recommend
+                        </span>
+                        <img src="img/victor-bishop.jpg" alt="" class="comment-slider-item__img-1">
+                    </fieldset>
+                </div>
+                <div class="comment-slider-item">
+                    <fieldset class="comment-slider-item-block">
+                        <legend class="comment-slider-item-block__legend">Ophelia Stevenson</legend>
+                        <div class="comment-slider-item-block-star">
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                            <img src="img/comment-star.png" class="comment-slider-item-block-star__item" />
+                        </div>
+                        <span class="comment-slider-item-block__text">
+                            We needed a few small repairs on our house before we sold it and he was able to fit us in on
+                            the next business day and take care of all of our issues in a few hours. He had great
+                            communication, a great price and did a great job on all the repairs. I would highly
+                            recommend Good Home Service to anyone who needs general repairs on their house.
+                        </span>
+                        <img src="img/ophelia-stevenson.jpg" alt="" class="comment-slider-item__img-1">
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="comment-control">
+            <button class="comment-control-btn comment-control__prev"></button>
+            <span class="comment-control__current-number-slider">1</span>
+            <span class="comment-control__separator">/</span>
+            <span class="comment-control__count-slider">5</span>
+            <button class="comment-control-btn comment-control__next"></button>
+        </div>
+    </section> -->
+    <!-- <section class="about">
+        <h2 class="about__header">Our team</h2>
+        <div class="about-block">
+            <div class="about-member">
+                <div class="about-member-block">
+                    <div class="about-member-block__decorated"></div>
+                    <img class="about-member-block__img" src="img/section-team-alex.png" alt="">
+                </div>
+                <div class="about-member-description">
+                    <span class="about-member-description__name">Alex</span>
+                    <span class="about-member-description__position">Head of design department</span>
+                </div>
+            </div>
+            <div class="about-member">
+                <div class="about-member-block">
+                    <img class="about-member-block__img" src="img/section-team-andrew.png" alt="">
+                    <div class="about-member-block__decorated"></div>
+                </div>
+                <div class="about-member-description">
+                    <span class="about-member-description__name">Andrew</span>
+                    <span class="about-member-description__position">Construction and repair</span>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <footer class="footer">
+        <div class="footer-block">
+            <div>
+                <a href="index.html" class="nav__logo">
+                    <img class="logo__img" src="img/logo-2.png" alt="logo">
+                </a>
+                <p class="footer-nav-wrap-item__link">
+                    Г.Минск, ул.Мельникайте
+                </p>
+                <a href="https://kartoteka.by/unp-192279927" target="_blank" class="footer-nav-wrap-item__link">
+                    УННП 192279927
+                </a>
+                <p class="footer-nav-wrap-item__link">
+                    КА 8039052
+                </p>
+            </div>
+            <ul class="footer-nav-wrap">
+                <li class="footer-nav-wrap-item">
+                    <a href="#" class="footer-nav-wrap-item__link footer-nav-wrap-item__link_active">Меню</a>
+                </li>
+                <li class="footer-nav-wrap-item">
+                    <a href="stretch-ceiling.html" class="footer-nav-wrap-item__link">Главная</a>
+                </li>
+                <li class="footer-nav-wrap-item">
+                    <a href="srepair-of-premises.html" class="footer-nav-wrap-item__link">Ремонт помещений</a>
+                </li>
+                <li class="footer-nav-wrap-item">
+                    <a href="index.html" class="footer-nav-wrap-item__link">Шумо- и термо- изоляция</a>
+                </li>
+                <li class="footer-nav-wrap-item">
+                    <a href="index.html" class="footer-nav-wrap-item__link">Потолки/Полы</a>
+                </li>
+                <li class="footer-nav-wrap-item">
+                    <a href="handyman-service.html" class="footer-nav-wrap-item__link">Обслуживание офисов</a>
+                </li>
+                <li class="footer-nav-wrap-item">
+                    <a href="portfolio.html" class="footer-nav-wrap-item__link">Портфолио</a>
+                </li>
+            </ul>
+            <ul class="footer-nav-wrap">
+                <li class="footer-nav-wrap-item">
+                    <a  class="footer-nav-wrap-item__link footer-nav-wrap-item__link_active">Контакты</a>
+                </li>
+                <li class="footer-nav-wrap-item">
+                    <a href="telto:+375257790986" class="footer-nav-wrap-item__link">+37525 779 09 86 </a>
+                </li>
+                <li class="footer-nav-wrap-item">
+                    <a href="telto:+375293935100" class="footer-nav-wrap-item__link">+37529 393 51 00</a>
+                </li>
+                <li class="footer-nav-wrap-item">
+                    <a href="mailto:smrepairstation@gmail.com" class="footer-nav-wrap-item__link">smrepairstation@gmail.com</a>
+                </li>
+            </ul>
+            <!-- <div class="footer-soc">
+                <span class="footer-soc__text footer-nav-wrap-item__link_active">Follow us</span>
+                <div class="header-caption-main-link-block">
+                    <a class="header-caption-main-link-block__link"
+                        href="https://www.facebook.com/GoodHome-112659453482194/?modal=admin_todo_tour" target="_blank">
+                        <img src="img/fb-icon.png" alt="">
+                    </a>
+                    <a class="header-caption-main-link-block__link" href="https://www.instagram.com/goodhome_repairs"
+                        target="_blank">
+                        <img src="img/insta-icon.png" alt="">
+                    </a>
+                    <a class="header-caption-main-link-block__link"
+                        href="https://www.linkedin.com/company/goodhome-repairs" target="_blank">
+                        <img src="img/linked-i.png" alt="">
+                    </a>
+                    <a class="header-caption-main-link-block__link" href="https://www.amazon.com/localservices/ya/sellerprofile?sellerID=A13LSB3GVJDSY8" target="_blank">
+                        <img src="img/amazon-i.png" alt="">
+                    </a>
+                    <a class="header-caption-main-link-block__link" href="https://www.thumbtack.com" target="_blank">
+                        <img src="img/t-i.png" alt="">
+                    </a>
+                    <a class="header-caption-main-link-block__link" href="https://www.taskrabbit.com/profile/aliaksandr-k/reviews" target="_blank">
+                        <img src="img/rabbit-i.png" alt="">
+                    </a>
+                    <a class="header-caption-main-link-block__link" href="https://www.yelp.com" target="_blank">
+                        <img src="img/thumb-i.png" alt="">
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"
+        integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
